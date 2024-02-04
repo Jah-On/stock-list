@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color:            white;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    padding:            0px;
+    margin:             0px;
+    text-align:         center;
+}
+
+p.disclaimer {
+    font-size:          0.8em;
+    width:              30%;
+}
+
+table {
+    border:             1px solid white;
+    border-collapse:    collapse;
+}
+
+th {
+    border:             1px solid white;
+    padding:            5px;
+}
+
+td {
+    border:             1px solid white;
+    padding:            5px;
+}
+
+td.hit {
+    background-color:   green;
+}
+
+td.miss {
+    background-color:   darkred;
+}
