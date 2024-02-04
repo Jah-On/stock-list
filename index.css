@@ -1,5 +1,9 @@
+html {
+    background-color:   black;
+}
+
 body {
-    align-items:        center;align-items:        center;
+    align-items:        center;
     background-color: black;
     color:            white;
     display:            flex;
@@ -10,9 +14,14 @@ body {
     text-align:         center;
 }
 
+div.container {
+}
+
 p.disclaimer {
     font-size:          0.8em;
-    width:              30%;
+    margin-left:        auto;
+    margin-right:       auto;
+    width:              80%;
 }
 
 table {
