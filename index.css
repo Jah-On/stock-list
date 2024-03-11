@@ -29,6 +29,10 @@ table {
     border-collapse:    collapse;
 }
 
+tr.strikeout {
+    text-decoration:    line-through;
+}
+
 th {
     border:             1px solid white;
     padding:            5px;
